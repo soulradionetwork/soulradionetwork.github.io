@@ -132,6 +132,25 @@
             text-align: center;
             padding: 10px 20px;
         }
+		
+		#sutera-radio h2 a,
+		#soul-radio h2 a,
+		#ctdk-music h2 a,
+		#namaste-radio h2 a,
+		#station-plus-radio h2 a {
+		text-decoration: none; /* Tiada garis bawah */
+		color: inherit; /* Kekalkan warna asal */
+		transition: color 0.3s ease; /* Tambahkan animasi perubahan warna */
+		}
+
+		#sutera-radio h2 a:active,
+		#soul-radio h2 a:active,
+		#ctdk-music h2 a:active,
+		#namaste-radio h2 a:active,
+		#station-plus-radio h2 a:active {
+			color: #ff5733; /* Warna bertukar apabila ditekan */
+		}
+
     </style>
     <script>
         function toggleMenu() {
@@ -173,27 +192,27 @@
 
 <main>
     <section id="sutera-radio">
-        <h2>Sutera Radio</h2>
+        <h2><a href="station/sutera-radio">Sutera Radio</a></h2>
         <p>Enjoy the best hits from the 90s, 2000s, and today, along with live concerts and podcasts.</p>
     </section>
 
     <section id="soul-radio">
-        <h2>Soul Radio</h2>
+        <h2><a href="station/soul-radio">Soul Radio</a></h2>
         <p>Your destination for kpop music and live concerts.</p>
     </section>
 
     <section id="ctdk-music">
-        <h2>CTDK Music</h2>
+        <h2><a href="station/ctdk-music">CTDK Music</a></h2>
         <p>Explore the hits and timeless classics from CTDK.</p>
     </section>
 
     <section id="namaste-radio">
-        <h2>Namaste Radio</h2>
+        <h2><a href="station/namaste-radio">Namaste Radio</a></h2>
         <p>A vibrant mix of Indian music and cultural programming.</p>
     </section>
 
     <section id="station-plus-radio">
-        <h2>Station Plus Radio</h2>
+        <h2><a href="station/station-plus-radio">Station Plus Radio</a></h2>
         <p>Your gateway to eclectic music from around the globe.</p>
     </section>
 
